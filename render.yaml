@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: java-backend
-    runtime: node
-    plan: free
-    buildCommand: ./mvnw clean install
-    startCommand: ./mvnw spring-boot:run
-    rootDir: backend
